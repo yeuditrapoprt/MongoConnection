@@ -14,6 +14,6 @@ router.get('/', getAllPets);
 router.get('/petId', getPet);
 router.post('/', createNewPet);
 router.put('/petId', updatePet);
-router.delete('/petId', deletePet);
+router.delete('/', deletePet);
 
 module.exports = router;
